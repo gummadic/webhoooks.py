@@ -7,7 +7,7 @@ setup(
     license="MIT",
     author='Mario César Señoranis Ayala',
     author_email='mariocesar.c50@gmail.com',
-    packages="webhooks",
+    packages=["webhooks"],
     package_dir={'webhooks': 'webhooks'},
     url='https://github.com/mariocesar/webhoooks.py',
     zip_safe=True,
