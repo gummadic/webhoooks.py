@@ -1,0 +1,12 @@
+---
+
+- GET: /
+  name: Root
+  response: Hello !
+
+
+- GET: /uptime
+  name: Return Uptime
+  run:
+    command: uptime
+  response: "{{ task.ret }}"
