@@ -11,6 +11,11 @@ setup(
     package_dir={'webhooks': 'webhooks'},
     url='https://github.com/mariocesar/webhoooks.py',
     zip_safe=True,
+    requires=[
+        "pyyaml",
+        "aiohttp",
+        "yattag",
+    ],
     entry_points={
         'console_scripts': ['webhooks.py=webhooks:main'],
     },
